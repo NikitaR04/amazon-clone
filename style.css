@@ -119,3 +119,40 @@ span {
     font-size: 0.85rem;
     font-weight: 700;
 }
+
+/** panel **/
+
+.panel {
+    height: 40px;
+    display: flex;
+     /* display: inline; */
+    background-color: #222f3d;
+    color: #FFFF;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* .panel-all {
+    padding-right: 9px;
+} */
+
+.panel-ops span{
+    display: inline;
+    margin: 9px;
+    border: 1.5px solid transparent;
+    font-size: 14px;
+
+}
+
+.panel-ops span:hover {
+    border: 1.5px solid white;
+}
+
+.panel-ops {
+    width: 70%;
+    
+}
+
+.panel-deals {
+    font-weight: 700;
+}
