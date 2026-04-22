@@ -156,3 +156,34 @@ span {
 .panel-deals {
     font-weight: 700;
 }
+
+/** hero-section **/
+
+.hero-section {
+    background-image: url("hero_image_2.jpg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.hero-message{
+    background-color: #f5f6f6;
+    width: 974px;
+    /* height: 30px; */
+    line-height: 20px; /* controls the vertical spacing allocated to each line of text*/
+    bottom: 25px;
+    position: relative;
+
+}
+
+.hero-message p{
+    font-size: 14px;
+    padding-left: 50px;
+}
+
+a{
+    font-size: 14px;
+    color: #007185;
+}
